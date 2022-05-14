@@ -3,6 +3,10 @@
 -cp ../
 # pick a target
 
+--dce no
+
+-D LIB_CLANG_PATH=/usr/local/lib
+
 #-D mac
 #-D windows
 #-D linux
@@ -13,5 +17,4 @@
 #-D HXCPP_M64
 #-D HXCPP_M32
 
-#-cmd ./cpp/Test
-#-cmd ./cpp/Test.exe
+-cmd ./cpp/Test

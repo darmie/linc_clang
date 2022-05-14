@@ -1,0 +1,5 @@
+analyzer:
+  exclude:
+    - "ffigen"
+    - "ffigen/lib/src/**.dart"
+

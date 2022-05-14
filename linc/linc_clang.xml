@@ -1,0 +1,36 @@
+<xml>
+
+    <!-- For a more in depth guide: https://github.com/snowkit/hxcpp-guide -->
+
+    <files id='haxe'>
+
+        <!-- add files and flags to the haxe c++ build -->
+        <compilerflag value='-I${LINC_CLANG_PATH}linc/'/>
+        <compilerflag value='-I${LINC_CLANG_PATH}/lib/libclang/include'/>
+        <compilerflag value='-Wno-nullability-completeness'/>
+        <!-- <compilerflag value='-DEMPTY_EXAMPLE_DEFINE_FOR_THE_CPP_CODE'/> -->
+
+        <!-- <file name='${LINC_CLANG_PATH}linc/linc_clang.cpp' /> -->
+
+    </files>
+
+    <files id='__main__'>
+
+        <!-- add files and flags to the haxe c++ build -->
+        <compilerflag value='-I${LINC_CLANG_PATH}linc/'/>
+        <compilerflag value='-I${LINC_CLANG_PATH}/lib/libclang/include'/>
+        <compilerflag value='-Wno-nullability-completeness'/>
+        <!-- <compilerflag value='-DEMPTY_EXAMPLE_DEFINE_FOR_THE_CPP_CODE'/> -->
+
+        <!-- <file name='${LINC_CLANG_PATH}linc/linc_clang.cpp' /> -->
+
+    </files>
+
+    <target id="haxe">
+        <flag value="-lclang"/>
+        <vflag name="-L" value="${LIB_CLANG_PATH}"/>
+        <!-- add linker flags to the haxe build output -->
+
+    </target>
+
+</xml>

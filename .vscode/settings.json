@@ -1,0 +1,7 @@
+{
+    "C_Cpp.default.includePath": [
+        "/usr/local/lib/haxe/lib/hxcpp/4,2,1/include",
+        "${workspaceFolder}/lib/libclang/include",
+    ],
+    "cmake.configureOnOpen": true
+}

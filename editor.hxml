@@ -1,0 +1,4 @@
+-C ./
+
+-cpp cpp/
+-D LIB_CLANG_PATH=/Library/Developer/CommandLineTools/usr/lib
