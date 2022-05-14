@@ -1,0 +1,14 @@
+{
+    "name": "linc_libclang",
+    "url": "https://github.com/darmie/linc_clang",
+    "license": "Apache",
+    "tags": ["clang", "parser", "libclang"],
+    "description": "libclang bindings for Haxe",
+    "classPath": "",
+    "version": "0.0.1",
+    "releasenote": "initial release",
+    "contributors": ["darmie"],
+    "dependencies": {
+        "hxcpp": ""
+    }
+}
