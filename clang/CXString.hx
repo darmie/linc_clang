@@ -23,6 +23,7 @@ extern class CXString {
 
 	public static inline function toString(C:CXString):String {
 		final str = Clang.getCString(C);
+		Clang.disposeString(C);
 		return str;
 	}
 }
